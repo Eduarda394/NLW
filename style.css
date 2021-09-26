@@ -1,0 +1,152 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+a {
+  width: 800%;
+  font-family: 'DM sans';
+  height: 50;
+  font-size: 120%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: #d3cdcb;
+  text-decoration: none;
+}
+
+/******** BASE ***************** */
+body {
+  flex-flow: row nowrap;
+  font-family: 'Poppins', 'DM sans';
+  color: var(--body-color);
+  background: #110b15;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background: #403046;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background: #403046;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > .logoloja {
+  width: 7.121rem;
+  height: 7.121rem;
+  box-shadow: 0px;
+}
+
+footer > .logoloja {
+  width: 7.121rem;
+  height: 7.121rem;
+  box-shadow: 0px;
+}
+
+#comeco h1 {
+  color: #d3cdcb;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 300%;
+}
+
+#titulo2 {
+  background: url(./imagens/pasto.jpeg) center/cover no-repeat;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#titulo2 h2 {
+  color: #d3cdcb;
+  font-size: 300%;
+}
+
+#comeco .paisagem {
+  margin-left: 18rem;
+  flex-flow: row nowrap;
+  width: 40%;
+}
+
+#comeco .vinho {
+  margin-left: 1.5rem;
+  flex-flow: row nowrap;
+  width: 30%;
+  height: auto;
+}
+
+#comeco .uva {
+  margin-left: 1.5rem;
+  flex-flow: row nowrap;
+  width: 50%;
+  height: auto;
+}
+
+#comeco .Barrils {
+  margin-left: 1.5rem;
+  flex-flow: row nowrap;
+  width: 50%;
+  height: auto;
+}
+
+#comeco .Palavras {
+  flex-flow: column nowrap;
+  color: #d3cdcb;
+  font-family: 'DM sans';
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 140%;
+  line-height: normal;
+}
+
+#comeco .ultima {
+  border-bottom: 1px solid grey;
+}
+
+#comeco .logoicone {
+  color: white;
+}
+/******** LAYOUT ***************** */
+
+#header {
+  margin-bottom: 2rem;
+  display: flex;
+  height: 80px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.container {
+  width: 200%;
+  height: 50;
+  font-family: 'Poppins';
+}
+/******** HOME ***************** */
+
+#home .image::before {
+  content: '';
+  height: 38%;
+  width: 29%;
+  background: red;
+  position: absolute;
+  top: 18%;
+  left: 10.7%;
+  z-index: 1;
+}
